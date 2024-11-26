@@ -1,0 +1,183 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Container Class */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ff8c00; /* Orange color for the shop theme */
+    padding: 20px 0;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .nav-links li {
+    margin-left: 30px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav .nav-links a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://via.placeholder.com/1500x600/ff8c00/ffffff'); /* Example Hero Image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #f39c12;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+/* Menu Section */
+.menu {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.menu h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.menu-item p {
+    font-size: 16px;
+}
+
+/* About Section */
+.about {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+.contact {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Footer Section */
+footer {
+    background-color: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+}
